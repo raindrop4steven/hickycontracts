@@ -1,0 +1,18 @@
+{
+  "name": "pky-coin",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "zeppelin-solidity": "^1.4.0",
+    "truffle-core": "^4.0.1"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy-ropsten": "truffle exec --network ropsten scripts/deploy.js",
+    "deploy-main": "truffle exec --network main scripts/deploy.js",
+    "mint-ropsten": "truffle exec --network ropsten scripts/mint.js",
+    "mint-main": "truffle exec --network main scripts/mint.js",
+    "finish-ropsten": "truffle exec --network ropsten scripts/mint_finish.js",
+    "finish-main": "truffle exec --network main scripts/mint_finish.js"
+  }
+}
