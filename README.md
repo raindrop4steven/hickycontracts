@@ -1,4 +1,4 @@
-PKY Coin Smart Contract
+HKY Coin Smart Contract
 ========================
 
 ### Dependencies
